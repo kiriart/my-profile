@@ -23,7 +23,7 @@ h2 {
   margin-bottom: 0%;
   margin-top: 0;
   padding-left: 0px;
-  padding-top: 90px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -140,6 +140,7 @@ header {
 /* Bio text */
 #biotext {
   width: 500px;
+  text-align: justify;
 }
 
 /*  */
@@ -168,6 +169,7 @@ header {
 /* Project text */
 .projtext {
   width: 50%;
+  text-align: justify;
 }
 
 /* Project figure */
@@ -211,9 +213,14 @@ header {
   width: 100%;
 }
 
+/* Python text */
+#pythongrid h4 {
+  text-align: justify;
+}
+
 /* Python grid vertical gap */
 #pythongrid > div {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 /*  */
