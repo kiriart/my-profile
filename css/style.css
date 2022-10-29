@@ -18,6 +18,11 @@ body {
   --asidebackground: #f2a72e;
 }
 
+.width910 {
+  width: 910px;
+  margin: 0px auto;
+}
+
 h2 {
   font-size: 2rem;
   margin-bottom: 0%;
@@ -25,11 +30,6 @@ h2 {
   padding-left: 0px;
   padding-top: 20px;
   padding-bottom: 10px;
-}
-
-#title a {
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hrefgithub {
@@ -78,7 +78,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 910px;
+  margin: 0px auto;
+}
+
+#title a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* My name */
@@ -132,7 +138,7 @@ header {
 
 /* Bio image */
 #bioimage {
-  width: 100%;
+  max-width: 180px;
   border-radius: 50%;
   border: var(--font-color) 2px solid;
 }
@@ -153,7 +159,7 @@ header {
 }
 
 /* Project header */
-#projects > h2 {
+#projects h2 {
   text-align: center;
 }
 
@@ -279,8 +285,16 @@ footer {
     width: auto;
   }
 
+  .width910 {
+    width: auto;
+  }
+  
   #bioflex {
     flex-wrap: wrap;
+  }
+
+  #bioimage {
+    width: 100%;
   }
 
   #biotext {
@@ -291,11 +305,15 @@ footer {
     flex-wrap: wrap;
   }
 
+  .projfigure {
+    width: 60%;
+  }
+  
   .projtext {
     width: 90%;
   }
 
   #pythongrid {
-    grid-template: 1fr 1fr / 25% 25%;
+    grid-template: 1fr 1fr / 30% 30%;
   }
 }
